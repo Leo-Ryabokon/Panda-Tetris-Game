@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+html, body {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+body {
+    background: url(../images/bambok.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    max-width: 960px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+header h1 {
+    background: rgba(255, 255, 255, .5);
+    padding: 20px 0;
+}
+
+main {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.block {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto
+}
+
+.tetris-wrap {
+    width: 275px;
+    height: 455px;
+    border: 3px solid red;
+    margin: 20px auto; 
+    background: rgba(255, 255, 255, .5)
+}
+
+.text-field {
+    background: rgba(255, 255, 255, .5);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.run {
+    border: 2px solid #47ad14;
+    border-radius: 50%;
+    background: url(../images/Google_Panda-256.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 40px 40px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.rule {
+    margin-top: 20px;
+}
+
+.score-field {
+    font-size: 42px;
+    padding: 30px 0;
+}
+
+#tetris-field {
+    width: 270px;
+    height: 450px;
+    /* margin: 25px 18px; */
+}
+
+.white {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border-radius: 100%;
+    float: left;
+}
+.orange {
+    width: 30px;
+    height: 30px;
+    background: #f8aa02;
+    border-radius: 100%;
+    float: left;
+}
+.blue {
+    width: 30px;
+    height: 30px;
+    background: rgb(34, 156, 238);
+    border-radius: 100%;
+    float: left;
+}
+.green {
+    width: 30px;
+    height: 30px;
+    background: rgb(17, 117, 22);
+    border-radius: 100%;
+    float: left;
+}
+.red {
+    width: 30px;
+    height: 30px;
+    background: rgb(230, 56, 56);
+    border-radius: 100%;
+    float: left;
+}
+.yellow {
+    width: 30px;
+    height: 30px;
+    background: rgb(132, 12, 245);
+    border-radius: 100%;
+    float: left;
+}
